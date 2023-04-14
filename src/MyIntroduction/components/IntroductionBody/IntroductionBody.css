@@ -1,0 +1,7 @@
+.body_container{
+    display: flex;
+    height: 100%;
+    background-color: black;
+    color: white;
+    flex: 1;
+}
