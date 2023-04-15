@@ -1,11 +1,12 @@
 import React from "react";
-import "./NavigationTab.css"
+import "./NavigationTab.css";
+import _ from "lodash";
 
 function NavigationTab(props) {
-    const { label } = props;
-    return(
+    const { tabDetail } = props;
+    return (
         <div className="label_container">
-            {label}
+            {_.get(tabDetail,"label","")}
         </div>
     )
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import "./IntroductionHeader.css";
 import Logo from "MyIntroduction/Assets/Logo.svg";
+import NavigationBar from "./NavigationBar";
 
 function IntroductionHeader () {
     return (
@@ -13,9 +14,7 @@ function IntroductionHeader () {
                     Nirav Dadhaniya
                 </div>
             </div>
-            <div className="header_navigation">
-                
-            </div>
+            <NavigationBar />
         </div>
     )
 }
