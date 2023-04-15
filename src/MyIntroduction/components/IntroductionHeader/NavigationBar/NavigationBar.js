@@ -42,7 +42,7 @@ function NavigationBar() {
     return (
         <div className="navigation_bar">
             {_.map(HEADER_NAVIGATION_OPTIONS, option => {
-                return <NavigationTab tabDetail={option} />
+                return <NavigationTab tabDetail={option} key={_.get(option,"id")} />
             })}
         </div>
     )
