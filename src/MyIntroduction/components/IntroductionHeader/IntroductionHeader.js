@@ -1,6 +1,6 @@
 import React from "react";
 import "./IntroductionHeader.css";
-import Logo from "/Users/nvd/Documents/React_Projects/my-app/src/MyIntroduction/Assets/Logo.svg";
+import Logo from "MyIntroduction/Assets/Logo.svg";
 
 function IntroductionHeader () {
     return (
