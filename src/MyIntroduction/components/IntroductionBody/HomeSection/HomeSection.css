@@ -1,0 +1,5 @@
+.homeSectionContainer{
+    display: flex;
+    position: relative;
+    min-height: calc(100vh - 82px)
+}
