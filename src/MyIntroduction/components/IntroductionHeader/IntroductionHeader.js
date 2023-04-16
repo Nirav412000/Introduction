@@ -5,12 +5,12 @@ import NavigationBar from "./NavigationBar";
 
 function IntroductionHeader () {
     return (
-        <div className="header_container">
-            <div className="header_name">
-                <div className="name_logo">
+        <div className="headerContainer">
+            <div className="headerName">
+                <div className="nameLogo">
                     <img src={Logo} width={40} height={40} alt="Logo"/>
                 </div>
-                <div className="name_text">
+                <div className="nameText">
                     Nirav Dadhaniya
                 </div>
             </div>

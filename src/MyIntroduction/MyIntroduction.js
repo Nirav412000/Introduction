@@ -8,7 +8,7 @@ import GlobalContextProvider from "./GlobalContextProvider";
 function MyIntroduction() {
     return (
         <GlobalContextProvider>
-            <div className="my_introduction">
+            <div className="myIntroduction">
                 <IntroductionHeader />
                 <IntroductionBody />
                 <IntroductionFooter />

@@ -43,7 +43,7 @@ function NavigationBar() {
     const { currentTab, changeTab } = GlobalContextStore();
     
     return (
-        <div className="navigation_bar">
+        <div className="navigationBar">
             {_.map(HEADER_NAVIGATION_OPTIONS, option => {
                 const tabId = _.get(option,"id","");
                 return <NavigationTab tabDetail={option} key={tabId} isCurrentTab={tabId == currentTab} changeTab={changeTab} />
