@@ -2,6 +2,7 @@ import React from "react";
 import "./NavigationBar.css";
 import _ from "lodash";
 import NavigationTab from "MyIntroduction/CommonComponents/NavigationTab";
+import { GlobalContextStore } from "MyIntroduction/GlobalContextProvider";
 
 const HEADER_NAVIGATION_OPTIONS = [
     {
@@ -39,10 +40,13 @@ const HEADER_NAVIGATION_OPTIONS = [
 ]
 
 function NavigationBar() {
+    const { currentTab, changeTab } = GlobalContextStore();
+    
     return (
         <div className="navigation_bar">
             {_.map(HEADER_NAVIGATION_OPTIONS, option => {
-                return <NavigationTab tabDetail={option} key={_.get(option,"id")} />
+                const tabId = _.get(option,"id","");
+                return <NavigationTab tabDetail={option} key={tabId} isCurrentTab={tabId == currentTab} changeTab={changeTab} />
             })}
         </div>
     )
