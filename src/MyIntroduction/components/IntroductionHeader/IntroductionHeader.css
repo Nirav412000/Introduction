@@ -1,6 +1,6 @@
 .headerContainer {
     display: flex;
-    padding: 20px 60px;
+    padding: 20px 90px;
     background-color: black;
     position: sticky;
     top: 0px;
@@ -33,5 +33,5 @@
 
 .nameLogo {
     height: 40px;
-    border: 1px solid #888888;
+    border: 1px solid red;
 }

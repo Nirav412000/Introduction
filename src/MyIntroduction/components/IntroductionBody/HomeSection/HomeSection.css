@@ -1,5 +1,39 @@
 .homeSectionContainer{
     display: flex;
+    flex-direction: column;
     position: relative;
-    min-height: calc(100vh - 82px)
+    min-height: calc(100vh - 82px);
+    background-color: #1b1c1f;
+    justify-content: center;
+    padding: 0px 90px;
+}
+
+.helloContainer{
+    font-size: 20px;
+    color: white;
+    padding: 5px 0px;
+}
+
+.nameContainer{
+    color: white;
+    font-size: 35px;
+    padding: 5px 0px;
+}
+
+.redNameContainer{
+    color: red;
+}
+
+.introContainer{
+    display: flex;
+    width: fit-content;
+    font-size: 60px;
+    border-right: 2px solid red;
+    padding: 10px 10px 10px 0px;
+}
+
+.mediaContainer {
+    display: flex;
+    gap: 10px;
+    margin-top: 16px; 
 }
