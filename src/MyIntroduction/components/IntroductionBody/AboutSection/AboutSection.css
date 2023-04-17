@@ -1,4 +1,86 @@
-.AboutSectionContainer{
+.aboutSectionContainer{
     display: flex;
     background-color: black;
+    padding: 90px 90px;
+}
+
+.photoContainer{
+    display: flex;
+    border: 10px solid orange;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+.detailsContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.titleContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    display: flex;
+    font-size: 90px;
+    color: #333;
+    font-weight: 900;
+    text-transform: uppercase;
+    width: fit-content;
+}
+
+.nameTitle{
+    display: flex;
+    position: relative;
+    top: 35%;
+    left: -50%;
+    font-size: 30px;
+    color: red;
+    font-weight: 400;
+    width: fit-content;
+    text-transform: capitalize;
+}
+
+.aboutMeDetails{
+    display: flex;
+    flex-direction: column;
+}
+
+.desctiptionText{
+    display: flex;
+    font-size: 16px;
+    color: #CCCCCC;
+    margin: 20px 0px;
+    font-family: 'PT sans';
+}
+
+.desctiptionTable{
+    display: flex;
+}
+
+.labelCell{
+    display: flex;
+    width: 80px;
+    color: red;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.normalCell{
+    display: flex;
+    width: 260px;
+    color: white;
+    font-size: 18px;
+}
+
+.tableRow{
+    display: flex;
+    padding: 10px 0px;
+}
+
+.tableColumn{
+    display: flex;
+    flex-direction: column;
 }
