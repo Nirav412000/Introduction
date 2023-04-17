@@ -1,0 +1,25 @@
+.titleContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    display: flex;
+    font-size: 90px;
+    color: #333;
+    font-weight: 900;
+    text-transform: uppercase;
+    width: fit-content;
+}
+
+.nameTitle{
+    display: flex;
+    position: relative;
+    top: 35%;
+    left: -50%;
+    font-size: 30px;
+    color: red;
+    font-weight: 400;
+    width: fit-content;
+    text-transform: capitalize;
+}

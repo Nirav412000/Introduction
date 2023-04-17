@@ -1,6 +1,7 @@
 import React from "react";
 import "./AboutSection.css";
 import NiravProfile from "MyIntroduction/Assets/NiravProfile.jpg";
+import SectionHeader from "MyIntroduction/CommonComponents/SectionHeader";
 
 function AboutSection() {
 
@@ -17,11 +18,7 @@ function AboutSection() {
                 <img src={NiravProfile} width={380} height={500} alt="Nirav's Profile" />
             </div>
             <div className="detailsContainer">
-                <div className="titleContainer">
-                    <div className="title">About me
-                        <span className="nameTitle">I'm Nirav</span>
-                    </div>
-                </div>
+                <SectionHeader sectionTitle="About me" subTitle="I'm Nirav"/>
                 <div className="aboutMeDetails">
                     <div className="desctiptionText">
                         I'm a web designer and particularly good at frontend development with 2 years of work experiance with a product 
