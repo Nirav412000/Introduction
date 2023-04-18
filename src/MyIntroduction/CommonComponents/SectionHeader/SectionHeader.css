@@ -14,9 +14,10 @@
 
 .nameTitle{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     position: relative;
-    top: 35%;
-    left: -50%;
+    top: -50%;
     font-size: 30px;
     color: red;
     font-weight: 400;
