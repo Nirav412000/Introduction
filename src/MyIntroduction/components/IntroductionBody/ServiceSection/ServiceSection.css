@@ -1,0 +1,14 @@
+.serviceSectionContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 90px;
+    background-color: #1b1c1f;
+    align-items: center;
+}
+
+.serviceCardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 28px;
+    width: 100%;
+}

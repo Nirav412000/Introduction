@@ -17,10 +17,11 @@
     flex-direction: column;
     align-items: center;
     position: relative;
-    top: -50%;
+    top: -70%;
     font-size: 30px;
     color: red;
     font-weight: 400;
     width: fit-content;
     text-transform: capitalize;
+    height: 0;
 }
