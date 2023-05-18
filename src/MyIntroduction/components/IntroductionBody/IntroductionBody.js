@@ -3,6 +3,7 @@ import "./IntroductionBody.css";
 import HomeSection from "./HomeSection";
 import AboutSection from "./AboutSection";
 import ServiceSection from "./ServiceSection";
+import ResumeSection from "./ResumeSection";
 
 function IntroductionBody() {
     return (
@@ -10,6 +11,7 @@ function IntroductionBody() {
             <HomeSection />
             <AboutSection />
             <ServiceSection />
+            <ResumeSection />
         </div>
     )
 }

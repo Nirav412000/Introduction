@@ -1,0 +1,24 @@
+.resumeListPageContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.listHeader{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.listHeaderTitle{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.listPageCardsContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-left: 20px;
+    border-left: 2px solid #555;
+    padding-top: 36px;
+}

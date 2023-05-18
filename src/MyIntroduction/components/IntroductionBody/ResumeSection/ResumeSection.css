@@ -1,0 +1,12 @@
+.resumeSectionContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 90px;
+    background-color: black;
+}
+
+.resumeSectionBody{
+    display: flex;
+    gap: 20px;
+    margin-top: 60px;
+}

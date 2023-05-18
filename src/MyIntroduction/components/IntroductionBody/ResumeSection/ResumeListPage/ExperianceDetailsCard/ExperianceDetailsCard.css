@@ -1,0 +1,60 @@
+.experianceDetailsCardContainer{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.experianceDetailsCardContainer:hover .experianceDetailsCardPointer {
+    background-color: orange;
+}
+
+.experianceDetailsCardPointer{
+    display: flex;
+    min-width: 16px;
+    min-height: 16px;
+    border-radius: 50%;
+    border: 2px solid red;
+    background-color: red;
+    margin-left: -10px;
+}
+
+.detailsCard{
+    display: flex;
+    margin-left: 32px;
+    align-items: center;
+}
+
+.detailsCardArrow{
+    display: flex;
+    min-width: 28px;
+    min-height: 28px;
+    background-color: #1b1c1f;
+    transform: rotate(45deg);
+}
+
+.detailsCardBody{
+    display: flex;
+    flex-direction: column;
+    background-color: #1b1c1f;
+    border-radius: 4px;
+    padding: 15px 15px 15px 30px;
+    gap: 10px;
+    margin-left: -16px;
+}
+
+.detailsCardTitle{
+    display: flex;
+    font-size: 24px;
+    font-weight: 500;
+    color: orange;
+}
+
+.detailsCardDateContainer{
+    display: flex;
+    padding: 4px 12px;
+    background: linear-gradient(to right, orange, red);
+    width: fit-content;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
