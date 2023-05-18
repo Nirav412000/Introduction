@@ -2,19 +2,26 @@ import React from "react";
 import "./ResumeListPage.css";
 import ExperianceDetailsCard from "./ExperianceDetailsCard";
 import { DesktopIconV2 } from "MyIntroduction/SvgComponents";
+import _ from "lodash";
 
 function ResumeListPage(props) {
+    const { listDetails } = props;
+    const { listTitle, listLogo, listCards } = listDetails;
+
     return (
         <div className="resumeListPageContainer">
             <div className="listHeader">
-                <DesktopIconV2 width={40} height={40} fill={"red"} />
+                {listLogo}
                 <div className="listHeaderTitle">
-                    My Experiances
+                    {listTitle}
                 </div>
             </div>
             <div className="listPageCardsContainer">
-                <ExperianceDetailsCard />
-                <ExperianceDetailsCard />
+                {_.map(listCards, card => {
+                    return (
+                        <ExperianceDetailsCard cardDetails={card}/>
+                    )
+                })}
             </div>
         </div>
     )

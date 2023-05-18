@@ -2,6 +2,9 @@ import React from "react";
 import "./ExperianceDetailsCard.css";
 
 function ExperianceDetailsCard (props) {
+    const { cardDetails } = props;
+    const { experianceTitle, experianceDuration, experianceDescription} = cardDetails;
+
     return (
         <div className="experianceDetailsCardContainer">
            <div className="experianceDetailsCardPointer" />
@@ -9,13 +12,13 @@ function ExperianceDetailsCard (props) {
                 <div className="detailsCardArrow" />
                 <div className="detailsCardBody">
                     <div className="detailsCardTitle">
-                        Web Development
+                       {experianceTitle}
                     </div>
                     <div className="detailsCardDateContainer">
-                        2016-2020
+                        {experianceDuration}
                     </div>
                     <div className="detailsCardDescription">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+                        {experianceDescription}                    
                     </div>
                 </div>
            </div>
