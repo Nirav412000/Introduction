@@ -4,6 +4,7 @@ import HomeSection from "./HomeSection";
 import AboutSection from "./AboutSection";
 import ServiceSection from "./ServiceSection";
 import ResumeSection from "./ResumeSection";
+import SkillSection from "./SkillSection";
 
 function IntroductionBody() {
     return (
@@ -12,6 +13,7 @@ function IntroductionBody() {
             <AboutSection />
             <ServiceSection />
             <ResumeSection />
+            <SkillSection />
         </div>
     )
 }

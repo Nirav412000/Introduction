@@ -1,0 +1,12 @@
+.skillSectionContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 90px;
+    background-color: #1b1c1f;
+}
+
+.skillSectionBody{
+    display: flex;
+    padding: 20px 0px;
+    flex-wrap: wrap;
+}
